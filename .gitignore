@@ -1,0 +1,15 @@
+# Ignore this files
+
+.DS_Store
+README.md
+/readme.html
+/license.txt
+*.md
+Gruntfile.js
+package.json
+
+# Ignore this folders
+
+node_modules/
+.sass-cache/
+dest/
