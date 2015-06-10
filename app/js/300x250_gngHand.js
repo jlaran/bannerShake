@@ -10,10 +10,12 @@ var banner = new Banner({
 			//customFunctions.initData();
 			//timelinesArray[0].play();
 		}
+
 	},
 	timelinesAnimation: {
 		register: function(){
-			
+		timelinesArray[0].to("#footer", 1, {opacity:0})
+
 		}
 	}
 });
