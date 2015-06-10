@@ -25,11 +25,10 @@
 	position: relative;
 }
 
-#degrees {
-	font-size: 140px;
-	font-family: clockfont;
-	color: #000;
+#rafa {
+	display: none;
 }
+
 
 #fan {
 	width: 173px;
@@ -38,14 +37,6 @@
 	position: relative;
 	margin: 0 auto;
 	margin-top: 32px;
-
-	#anim1 {
-		-webkit-animation: spin 2000ms linear 0s infinite normal;
-		-moz-animation: spin 2000ms linear 0s infinite normal;
-		-ms-animation: spin 2000ms linear 0s infinite normal;
-		-o-animation: spin 2000ms linear 0s infinite normal;
-		animation: spin 2000ms linear 0s infinite normal;
-	}
 }
 
 #aspas {
@@ -55,25 +46,4 @@
 	position: absolute;
 	top: 20px;
 	left: 20px;
-}
-
-@keyframes spin {
-	0% { transform: rotate(360deg); }
-	100% { transform: rotate(0deg); }
-}
-@-webkit-keyframes spin {
-	0% {-webkit-transform: rotate(360deg); }
-	100% { -webkit-transform: rotate(0deg); }
-}
-@-ms-keyframes spin {
-	0% {-ms-transform: rotate(360deg); }
-	100% { -ms-transform: rotate(0deg); }
-}
-@-moz-keyframes spin {
-	0% { -moz-transform: rotate(360deg); }
-	100% { -moz-transform: rotate(0deg); }
-}
-@-o-keyframes spin {
-	0% { -o-transform: rotate(360deg); }
-	100% { -o-transform: rotate(0deg); }
 }
