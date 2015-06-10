@@ -39,11 +39,6 @@ p, h1, h2, h3, h4, a {
     text-align: center;
 }
 
-#f1_txt1{
-	top: 30px;
-	width: 95%;
-}
-
 #footer{
 	width: 300px;
 	height: 54px;
@@ -51,14 +46,15 @@ p, h1, h2, h3, h4, a {
 	left: 0px;
 	background: $BackgroundWhite;
 	position: absolute;
-	opacity: $opacityOne;
+	opacity: $opacityCero;
 	display: block;
+	z-index:10;
 }
 
 #GNG_logo{
 	width: 165px;
 	height: 28px;
-	left: 5px;
+	left: -170px;
 	top: 13px;
     background: url(../img/GNG_logo.svg) no-repeat;
     position: absolute;
@@ -67,7 +63,7 @@ p, h1, h2, h3, h4, a {
 .blueButton{
 	width: 129px;
 	height: 54px;
-	left: 171px;
+	left: 301px;
     background: url(../img/cuna.svg) no-repeat;
     position: absolute;
 }
@@ -78,18 +74,41 @@ p, h1, h2, h3, h4, a {
 	left: 35px;
     position: absolute;
     text-align: left;
+	opacity: $opacityCero;
+
 }
 
+#f1_txt1{
+	top: 30px;
+	width: 95%;
+	opacity: $opacityCero;
+
+}
+
+.marco{
+	width: 300px;
+	height: 196px;
+	overflow: hidden;
+}
 #hand{
 	width: 100px;
 	height: 113px;
-	top: 83px;
-	left:0;
-	right:0;
-	margin: 0 auto;
+	top: 253px;
+	left: 200px;
     position: absolute;
     background: url(../img/hand.svg) no-repeat;
 
+}
+
+.centerAbsolute{
+	left:0;
+	right:0;
+	margin: 0 auto;
+}
+
+.centerRelative{
+	width: 100%;
+	margin: 0 auto;
 }
 
 .frame {
