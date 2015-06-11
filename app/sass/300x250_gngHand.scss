@@ -71,7 +71,7 @@ p, h1, h2, h3, h4, a {
 #ff-cta{
     font-size: $ff-cta;
 	top: 21px;
-	left: 35px;
+	left: 30px;
     position: absolute;
     text-align: left;
 	opacity: $opacityCero;
@@ -89,6 +89,7 @@ p, h1, h2, h3, h4, a {
 	width: 300px;
 	height: 196px;
 	overflow: hidden;
+    position: relative;
 }
 #hand{
 	width: 100px;
@@ -97,7 +98,6 @@ p, h1, h2, h3, h4, a {
 	left: 200px;
     position: absolute;
     background: url(../img/hand.svg) no-repeat;
-
 }
 
 .centerAbsolute{
