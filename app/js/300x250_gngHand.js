@@ -34,7 +34,8 @@ var banner = new Banner({
   		//Frame 2
 		timelinesArray[1].addLabel("frame2")
   						 .to("#f2_txt1", 0.6, {opacity:1, delay:1}, "-=0.3" )
-   						 .to("#f2_txt1", 0.6, {delay:2.6, opacity:0, onComplete:function(){ animationsObject.thirdFrame();}});
+						 .to("#f2_txt1", 0.6, {delay:2.6, opacity:0})
+						 .to("#hand", 0.6, {opacity:0, onComplete:function(){ animationsObject.thirdFrame();}}, "-=0.5" ) ;
   		//Frame 3
 		timelinesArray[2].addLabel("frame3")
   						 .to("#f3_txt1", 0.6, {opacity:1}, "-=0.3" )
