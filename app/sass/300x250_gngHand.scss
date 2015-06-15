@@ -34,6 +34,8 @@ p, h1, h2, h3, h4, a {
 .titles {
     position: absolute;
     width: 100%;
+    left:0;
+    right:0;
     font-size: $collapsedTitle;
     opacity: $opacityOne;
     text-align: center;
@@ -44,7 +46,7 @@ p, h1, h2, h3, h4, a {
 	height: 54px;
 	bottom: 0px;
 	left: 0px;
-	background: $BackgroundWhite;
+	//background: $BackgroundWhite;
 	position: absolute;
 	opacity: $opacityCero;
 	display: block;
@@ -52,10 +54,9 @@ p, h1, h2, h3, h4, a {
 }
 
 #GNG_logo{
-	width: 165px;
-	height: 28px;
-	left: -170px;
-	top: 13px;
+	width: 198px;
+	height: 54px;
+	left: -198px;
     background: url(../img/GNG_logo.svg) no-repeat;
     position: absolute;
 }
@@ -80,9 +81,7 @@ p, h1, h2, h3, h4, a {
 
 #f1_txt1{
 	top: 30px;
-	width: 95%;
 	opacity: $opacityCero;
-
 }
 
 .marco{
@@ -98,6 +97,17 @@ p, h1, h2, h3, h4, a {
 	left: 200px;
     position: absolute;
     background: url(../img/hand.svg) no-repeat;
+}
+
+#f2_txt1{
+	top: 30px;
+	opacity: $opacityCero;
+}
+
+#f3_txt1{
+	font-family:clockfont;
+	top: 30px;
+	opacity: $opacityCero;
 }
 
 .centerAbsolute{
