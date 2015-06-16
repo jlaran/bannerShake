@@ -36,6 +36,7 @@ var banner = new Banner({
 						 .to("#f1_txt2", 0.4, {opacity:0, onComplete:function(){banner.animationFrames[1]()}}, "-=0.4" );
 
   		//Frame 2
+<<<<<<< HEAD
 		banner.timelinesArray[1].addLabel("frame2")
   						 .to("#f2_txt1", 0.8, {opacity:1, top:30, delay:1}, "-=1" )
   						 .to("#f2_txt2", 0.8, {opacity:1, top:50,}, "-=1" )
@@ -43,6 +44,12 @@ var banner = new Banner({
    						 .to("#f2_txt2", 0.6, {opacity:0}, "-=0.6" )			 
 						 .to("#hand", 0.6, {opacity:0, top:200, left:200, ease:Power2.easeOut, onComplete:function(){banner.animationFrames[2]()}}, "-=0.6" ); 
 
+=======
+		timelinesArray[1].addLabel("frame2")
+  						 .to("#f2_txt1", 0.6, {opacity:1, delay:1}, "-=0.3" )
+						 .to("#f2_txt1", 0.6, {delay:2.6, opacity:0})
+						 .to("#hand", 0.6, {opacity:0, onComplete:function(){ animationsObject.thirdFrame();}}, "-=0.5" ) ;
+>>>>>>> 0992df032ee13fda5b083bbf958626cf12bb7b09
   		//Frame 3
 		banner.timelinesArray[2].addLabel("frame3")
   						 .to("#f3_txt1", 0.6, {opacity:1}, "-=2" )
