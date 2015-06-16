@@ -1,10 +1,10 @@
 //Sass code goes here 
  @import "variables";
 
- @font-face {
+ /*@font-face {
     font-family: clockfont;
     src: url(digital-dismay.otf);
-}
+}*/
 
 p, h1, h2, h3, h4, a {
 	color: $colorWhite;
@@ -80,7 +80,12 @@ p, h1, h2, h3, h4, a {
 }
 
 #f1_txt1{
-	top: 30px;
+	top: 20px;
+	opacity: $opacityCero;
+}
+
+#f1_txt2{
+	top: 60px;
 	opacity: $opacityCero;
 }
 
@@ -99,17 +104,56 @@ p, h1, h2, h3, h4, a {
     background: url(../img/hand.svg) no-repeat;
 }
 
+.marco2{
+	width: 36px;
+	height: 36px;
+	top: 11px;
+	left: 243px;
+	border: solid #fff 4px;
+	overflow: hidden;
+    position: absolute;
+	opacity: $opacityCero;
+
+}
+
+#hand2{
+	width: 33px;
+	height: 36px;
+    position: absolute;
+    left: 5px;
+    background: url(../img/hand2.svg) no-repeat;
+}
+
 #f2_txt1{
-	top: 30px;
+	top: 20px;
+	opacity: $opacityCero;
+}
+#f2_txt2{
+	top: 60px;
 	opacity: $opacityCero;
 }
 
 #f3_txt1{
-	font-family:clockfont;
-	top: 30px;
+	//font-family:clockfont;
+	font-size:100px;
+	top: 65px;
 	opacity: $opacityCero;
 }
 
+#f4_txt1{
+	top: 80px;
+	font-size:22px;
+	letter-spacing:1px;
+	opacity: $opacityCero;
+}
+#f4_txt2{
+	top: 128px;
+	font-size:29px;
+	font-weight: bold;
+	letter-spacing:1px;
+	color: $BackgroundLightBlue;
+	opacity: $opacityCero;
+}
 .centerAbsolute{
 	left:0;
 	right:0;
